@@ -55,8 +55,6 @@ formTest.getClass('wrap')[0].addEventListener('focusout',function (e) {
 		break;
 		case 'input3':
 		formTest.dblTestPassword(e,formTest.getClass('password')[0].value,formTest.getClass('result')[2]);
-		console.log(formTest.getClass('result')[2].className);
-
 		break;
 		case 'input4':
 		formTest.testRealName(e.target.value,formTest.getClass('result')[3]);
