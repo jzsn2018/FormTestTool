@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>formTest.html</title>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+	<div class="wrap">
+		<h2 class="text-center top-30">12306网站购票注册</h2>
+		<form action="" class="form-horizontal form-group top-40">
+			<div class="input-group col-xs-6 col-md-offset-3 top-20">
+				<span class="input-group-addon">您的用户名：</span>
+			  		<input type="text" class="form-control" placeholder="请输入您的用户名(支持中文英文数字下划线)，4-8位" aria-describedby="basic-addon2" name="input1">
+			  		<span class="result input-group-addon paste"></span>
+		  	</div>
+		  	<div class="input-group col-xs-6 col-md-offset-3 top-20 top-20">
+				<span class="input-group-addon">您的密码是：</span>
+			  		<input type="password" class="form-control password" placeholder="请输入您的密码，6-16位" aria-describedby="basic-addon2" name="input2">
+			  		<span class="result input-group-addon paste" ></span>
+		  	</div>
+		  	<div class="input-group col-xs-6 col-md-offset-3 top-20">
+				<span class="input-group-addon">请确认密码：</span>
+			  		<input type="password" class="form-control password" placeholder="请确认您输入的密码" aria-describedby="basic-addon2" name="input3">
+			  		<span class="result input-group-addon paste"></span>
+		  	</div>
+		  	<div class="input-group col-xs-6 col-md-offset-3 top-20">
+				<span class="input-group-addon">您真实姓名：</span>
+			  		<input type="text" class="form-control" placeholder="请输入您的真实姓名,支持中文英文且不超过4位" aria-describedby="basic-addon2" name="input4">
+			  		<span class="result input-group-addon paste"></span>
+		  	</div>
+		  	<div class="input-group col-xs-6 col-md-offset-3 top-20">
+		  		<span class="input-group-addon">身份证号码：</span>
+		  		<input type="text" class="form-control" placeholder="请输入您的18位身份证号码" aria-describedby="basic-addon2" name="input5">
+		  		<span class="result input-group-addon paste"></span>
+			</div>
+			<div class="input-group col-xs-6 col-md-offset-3 top-20">
+		  		<span class="input-group-addon">您常用邮箱：</span>
+		  		<input type="text" class="form-control" placeholder="请输入您的邮箱" aria-describedby="basic-addon2" name="input6">
+		  		<span class="result input-group-addon paste"></span>
+		  	</div>
+			<div class="input-group col-xs-6 col-md-offset-3 top-20">
+		  		<span class="input-group-addon">您手机号码：</span>
+		  		<input type="text" class="form-control" placeholder="请输入您的11位手机号码" aria-describedby="basic-addon2" name="input7">
+		  		<span class="result input-group-addon paste"></span>
+			</div>
+			<button class="btn btn-default btn-primary col-xs-6 col-md-offset-3 top-20" type="button">确认注册</button>
+		</form>
+	</div>
+	<div class="alert alert-danger text-center col-xs-6 col-md-offset-3 paste" role="alert">您的注册信息有误，请您按照提示要求填写注册信息</div>
+	<script src="formTest.js"></script>
+</body>
+</html>
