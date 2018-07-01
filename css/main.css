@@ -1,0 +1,58 @@
+body,textarea{
+	font-family: 
+	'pingfang SC','helvetica neue',arial,'hiragino sans gb','microsoft yahei ui','microsoft yahei',simsun,sans-serif
+}
+b{
+	color: red;font-size: 20px
+}
+dd,p,button,input{
+	font-size: 20px
+}
+.right{
+	color: rgb(26,173,25);
+	font-weight: bold;
+}
+.error,.note{
+	color: rgb(230,67,64);
+	font-weight: bold;
+}
+.bgRed{
+	background-color: red;
+	color: #fff;
+}
+.bgGray{
+	background-color: gray;
+	color: #fff;
+}
+.top-50{
+	margin-top: 50px;
+}
+.top-40{
+	margin-top: 40px;
+}
+.top-30{
+	margin-top: 30px;
+}
+.top-20{
+	margin-top: 20px;
+}
+.top-10{
+	margin-top: 10px;
+}
+.paste{
+	background-color: transparent;
+	border: none;
+	display: none;
+}
+.displayBlock{
+	display: table-cell;
+}
+.displayBlockAlert{
+	display: block;
+}
+.wrap:after{
+	content: '.';
+	visibility: hidden;
+	clear: both;
+	display: block;
+}
